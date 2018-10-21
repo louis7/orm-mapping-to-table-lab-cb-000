@@ -9,3 +9,7 @@ attr_accessor :name, :grade
     @grade= grade
     @id = id
 end
+
+
+
+end
