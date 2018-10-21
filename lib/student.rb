@@ -35,7 +35,7 @@ end
 
 def self.create (name:,grade:)
   song= self.new(name,grade,id=nil)
-  self.save
+  song.save
   song
 end
 
